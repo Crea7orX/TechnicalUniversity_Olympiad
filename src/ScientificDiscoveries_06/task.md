@@ -9,7 +9,11 @@
 
 ## Constraints
 
-1≤T≤100 1≤N≤10^5 1≤vi≤10^6
+1≤T≤100
+
+1≤N≤10^5
+
+1≤vi≤10^6
 
 ## Output Format
 
