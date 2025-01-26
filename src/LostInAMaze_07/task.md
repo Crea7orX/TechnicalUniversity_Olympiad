@@ -9,9 +9,8 @@
 
 ## Constraints
 
-1 ≤ T ≤ 10
-
-1 ≤ N, M ≤ 50
+- 1 ≤ T ≤ 10
+- 1 ≤ N,M ≤ 50
 
 ## Output Format
 
