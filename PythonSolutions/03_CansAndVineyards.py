@@ -1,3 +1,5 @@
+import sys
+
 def is_even(N):
     return N % 2 == 0
 

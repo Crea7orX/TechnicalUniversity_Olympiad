@@ -1,3 +1,4 @@
+import sys
 from collections import deque
 
 def find_path(maze, rows, cols, start_x, start_y, end_x, end_y):
@@ -30,7 +31,6 @@ def find_path(maze, rows, cols, start_x, start_y, end_x, end_y):
     return False
 
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     idx = 0

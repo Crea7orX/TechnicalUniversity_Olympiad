@@ -1,10 +1,11 @@
+import sys
+
 def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n - 1)
 
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     T = int(data[0])

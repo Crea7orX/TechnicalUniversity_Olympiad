@@ -1,5 +1,6 @@
+import sys
+
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     idx = 0

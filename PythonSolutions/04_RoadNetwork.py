@@ -1,3 +1,5 @@
+import sys
+
 class Road:
     def __init__(self, from_city, to_city, cost):
         self.from_city = from_city
@@ -35,7 +37,6 @@ class UnionFind:
         return True
 
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     idx = 0

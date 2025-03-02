@@ -1,3 +1,5 @@
+import sys
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -16,7 +18,6 @@ def find_permutation_rank(tasks, n, k):
     return rank
 
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     idx = 0

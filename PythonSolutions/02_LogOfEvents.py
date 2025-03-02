@@ -1,3 +1,5 @@
+import sys
+
 def is_valid(s):
     stack = []
 

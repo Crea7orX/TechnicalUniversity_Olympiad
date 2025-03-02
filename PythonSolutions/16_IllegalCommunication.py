@@ -1,5 +1,6 @@
+import sys
+
 def main():
-    import sys
     sys.setrecursionlimit(10**6)
     input = sys.stdin.read
     data = input().splitlines()

@@ -1,3 +1,5 @@
+import sys
+
 def print_set(s, result):
     if not s:
         result.append("")
@@ -6,7 +8,6 @@ def print_set(s, result):
         result.append(" ".join(map(str, sorted_list)))
 
 def main():
-    import sys
     input = sys.stdin.read
     data = input().split()
     idx = 0
